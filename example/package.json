@@ -26,5 +26,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
