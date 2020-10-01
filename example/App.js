@@ -41,10 +41,11 @@ export default class App extends Component<{}> {
                     backgroundColor: 'red'
                 }}
                       onPress={() => {
-                          MagneticStripeReader.readBankCardData('%B5350290149123123123213345177^FATEHI/SUALEH^16042010000000000000000000000000000567001000?', 1, (data) => {
+                          MagneticStripeReader.readBankCardData('%B5350290149345177^F45177=16042010000056700100?', 1, (data) => {
                               this.setState({
                                   bankTrackData: data
                               });
+                              console.log(JSON.stringify(this.state.bankTrackData))
                           });
                       }}
                 >
@@ -59,10 +60,11 @@ export default class App extends Component<{}> {
                     backgroundColor: 'red'
                 }}
                   onPress={() => {
-                      MagneticStripeReader.readBankCardData('%B5350290149341231231235177^FATEHI/SUALEH^16042010000000000000000000000000000567001000?', 2, (data) => {
+                      MagneticStripeReader.readBankCardData('%B5350290149345177^FATEHI/SUALEH^16042010000000000000000000000000000567001000?;5350290149345177=16042010000056700100?', 2, (data) => {
                           this.setState({
                               bankData: data
                           });
+                          console.log(JSON.stringify(this.state.bankData))
                       });
                   }}
                 >
