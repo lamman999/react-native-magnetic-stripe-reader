@@ -2,7 +2,7 @@
   "name": "react-native-magnetic-stripe-reader",
   "title": "React Native Magnetic Stripe Reader",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "A simple and fully customizable React Native Magnetic Stripe component that implements a function to parse the magnetic stripe data into the JSON object data",
   "main": "index.js",
   "files": [
     "README.md",
@@ -20,13 +20,16 @@
     "baseUrl": "https://github.com/github_account/react-native-magnetic-stripe-reader"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "magnetic-stripe",
+    "react-native-magnetic-stripe",
+    "react-native-magnetic-stripe-reader"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Phu Le",
+    "email": "phule.macos@gmail.com"
   },
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {

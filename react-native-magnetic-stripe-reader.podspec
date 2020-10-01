@@ -7,14 +7,14 @@ Pod::Spec.new do |s|
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = <<-DESC
-                  react-native-magnetic-stripe-reader
+                  "A simple and fully customizable React Native Magnetic Stripe component that implements a function to parse the magnetic stripe data into the JSON object data"
                    DESC
   s.homepage     = "https://github.com/github_account/react-native-magnetic-stripe-reader"
   # brief license entry:
-  s.license      = "MIT"
+  s.license      = "Apache-2.0"
   # optional - use expanded license entry instead:
-  # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
+  # s.license    = { :type => "Apache-2.0", :file => "LICENSE" }
+  s.authors      = { "Phu Le" => "phule.macos@gmail.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/github_account/react-native-magnetic-stripe-reader.git", :tag => "#{s.version}" }
 
