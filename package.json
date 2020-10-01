@@ -1,7 +1,7 @@
 {
   "name": "react-native-magnetic-stripe-reader",
   "title": "React Native Magnetic Stripe Reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and fully customizable React Native Magnetic Stripe component that implements a function to parse the magnetic stripe data into the JSON object data",
   "main": "index.js",
   "files": [
@@ -39,5 +39,6 @@
   "devDependencies": {
     "react": "^16.9.0",
     "react-native": "^0.61.5"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
