@@ -74,6 +74,9 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation ('com.facebook.react:react-native:+')
     implementation (files('libs/magnetictrackparser-2.2.3.jar'))
+    implementation (group: 'us.fatehi', name: 'credit_card_number', version: '2.2.3') {
+      exclude group: 'org.apache.commons', module: 'commons-lang'
+    }
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'// From node_modules
 }
 
