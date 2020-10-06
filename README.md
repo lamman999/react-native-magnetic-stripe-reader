@@ -1,5 +1,5 @@
 # react-native-magnetic-stripe-reader
-
+![npm](https://img.shields.io/npm/dw/react-native-magnetic-stripe-reader?style=for-the-badge)
 ## Getting started
 
 `$ npm install react-native-magnetic-stripe-reader --save`
